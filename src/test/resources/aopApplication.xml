@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.fq.me/context"
+       xsi:schemaLocation="http://www.fq.me/context
+       http://www.fq.me/context/context.xsd">
+    <bean id="" class=""/>
+</beans>

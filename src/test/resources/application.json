@@ -1,0 +1,14 @@
+[
+  {
+    "name":"robot",
+    "className":"com.feizi.framework.ioc.entity.Robot"
+  },
+  {
+    "name":"hand",
+    "className":"com.feizi.framework.ioc.entity.Hand"
+  },
+  {
+    "name":"mouth",
+    "className":"com.feizi.framework.ioc.entity.Mouth"
+  }
+]

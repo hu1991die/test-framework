@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.fq.me/context"
+       xsi:schemaLocation="http://www.fq.me/context
+       http://www.fq.me/context/context.xsd">
+
+    <bean id="hand" class="com.feizi.framework.ioc.entity.Hand"/>
+    <bean id="mouth" class="com.feizi.framework.ioc.entity.Mouth"/>
+
+    <bean id="robot" class="com.feizi.framework.ioc.entity.Robot">
+        <property name="hand" ref="hand"/>
+        <property name="mouth" ref="mouth"/>
+    </bean>
+</beans>

@@ -1,0 +1,23 @@
+[
+  {
+    "name":"beforeMethod",
+    "className":"com.feizi.framework.aop.StartTimeBeforeMethod"
+  },
+  {
+    "name":"afterMethod",
+    "className":"com.feizi.framework.aop.EndTimeAfterMethod"
+  },
+  {
+    "name":"testService",
+    "className":"com.feizi.framework.aop.TestService"
+  },
+  {
+    "name":"testServiceProxy",
+    "className":"com.feizi.framework.aop.core.ProxyFactoryBean",
+    "target":"testService",
+    "interceptorNames":[
+      "beforeMethod",
+      "afterMethod"
+    ]
+  }
+]
